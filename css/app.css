@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: Roboto;
+  font-family: Arial;
   font-size: 12px;
   color: #424242;
 }
@@ -109,19 +109,11 @@ main {
 
 /*
  *
- * Recent News
+ * Featured Work
  *
  */
 
-.recent-news {
-  clear: both;
-  padding: 1em;
-}
 
-.snippet {
-  clear: both;
-  margin: 24px 0;
-}
 
 .work__thumbnail {
   width: 100px;
