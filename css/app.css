@@ -68,9 +68,11 @@ ul {
   width: 100%;
   max-width: 300px;
   height: auto;
-
 }
-
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+}
 /*
  *
  * Featured Work
