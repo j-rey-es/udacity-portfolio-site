@@ -20,35 +20,11 @@ h5 {
   margin: 0;
 }
 
-header,
-nav,
-footer,
-section,
-article,
-div {
-  box-sizing: border-box;
-}
-
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
-
-/*
- *
- * Common
- *
- */
-
-.news__more {
-  float: right;
-  font-size: .8em;
-  color: #333;
-  text-decoration: none;
-}
-
 
 /*
  *
@@ -87,30 +63,13 @@ ul {
 /*
  *
  * Main
- *
-
-
-main {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-*/
-.main_image{
-  max-width: 100%;
-  max-height: 20%;
-  padding: 5em;
-  em;
-
-}
-
-/*
- *
- * Content
- *
  */
+.main_image{
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 
+}
 
 /*
  *
@@ -121,25 +80,14 @@ main {
 
 
 .work__thumbnail {
-  max-width: 100%;
-  max-height: 50%;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 }
 
 .work__title {
   font-weight: 500;
 }
-
-/*.work__title a {
-  text-decoration: none;
-  color: #666;
-
-.work__title a:hover,
-.work__title a:active {
-  text-decoration: underline;
-}
-
-*/
-
 /*
  *
  * Footer
