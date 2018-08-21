@@ -79,7 +79,8 @@ ul {
 
 
 .sample{
-  width:33%
+  width:33%;
+  float:left;
 }
 .work__thumbnail {
   width: 100%;
