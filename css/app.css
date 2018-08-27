@@ -59,6 +59,13 @@ ul {
   color: #212121;
 }
 
+.header_footer{
+  font-weight: 100;
+  font-size: 16pt;
+  margin: 0.5em 0.25em
+  color: #212121;
+
+}
 
 /*
  *
@@ -66,12 +73,15 @@ ul {
  */
 .main_image{
   width: 100%;
-  max-width: 300px;
   height: auto;
 }
-.wrapper{
+.flex-container{
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
+}
+
+.flex-container > *{
+  flex:1 100%;
 }
 /*
  *
@@ -90,8 +100,53 @@ ul {
 .work__title {
   font-weight: 500;
 }
+
+.samples__title{
+    color: rgb(170, 174, 177);
+    display: inline-block;
+    border: 20em;
+}
 /*
- *
+* For Tablets screens
+*
+*/
+
+@media screen and (min-width: 700px){
+
+  .flex-container{
+    flex-flow: row;
+    text-align: center;
+
+  }
+  /*
+  .sample-1{
+    order: 2;
+  }
+  .sample-2{
+    order: 1;
+  }
+  .sample-3{
+    order: 3
+  }
+  */
+}
+
+/*
+* For Desktop screens
+*/
+
+@media screen and (min-width: 1024px){
+.flex-container{
+  border: 4em;
+}
+  .header{
+    float: right;
+    text-align: right;
+    width: 100%;
+  }
+}
+
+/*
  * Footer
  *
 */
@@ -100,6 +155,7 @@ footer {
   border-top: 1px solid #E0E0E0;
   padding: 1em;
   width: 100%;
+  text-align: center;
 }
 
 footer li {
