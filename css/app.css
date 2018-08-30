@@ -43,17 +43,15 @@ ul {
   font-weight: 300;
   font-size: 4em;
   margin: 0.5em 0.25em;
-  display: inline-block;
+
   color: #212121;
 }
-
 
 .header_footer{
   font-weight: 100;
   font-size: 2em;
   margin: 0.5em 0.25em;
   color: #212121;
-
 }
 
 /*
@@ -66,6 +64,7 @@ ul {
   width: 100%;
   height: auto;
 }
+
 .flex-container{
   display: flex;
   flex-direction: column;
